@@ -1,0 +1,43 @@
+.gericht_gallery{
+    display: flex;
+    flex:1;
+    padding: 1rem 0 1rem 6rem;
+}
+.gericht_gallery-header-button{
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border:none;
+    text-align: center;
+    padding: 8px 24px;
+}
+.gericht_gallery-header p{
+    margin: 1.5rem 0;
+    width:499px;
+}
+.gericht_gallery-photos{
+    display: flex;
+    position:relative;
+}
+.gericht_gallery-photos img{
+    width: 301px;
+    height: 447px;
+    margin-left: 1.6rem;
+}
+.image-card{
+    position:relative;
+}
+.image-card img{
+    opacity: 0.35;
+}
+.gallery__image-icon {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2rem;
+    transition: .5s ease;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.gericht_aboutus{
+    position: relative;
+}
+.gericht_aboutus-bg{
+    position: absolute;
+    inset: 0;
+}
+.gericht_aboutus-bg img{
+    width: 391px;
+    height: 415px;
+    z-index: 0;
+}
+.gericht_aboutus-content{
+    width: 100%;
+    z-index: 2;
+}
+.gericht_aboutus-history{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+.gericht_aboutus-image{
+    margin: 2rem 4rem;
+}
+.gericht_aboutus-image img{
+    height: 910px;
+}
+.gericht_aboutus-text{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+.gericht_aboutus-text p,
+.gericht_aboutus-history p{
+    margin :2rem 0;
+    color: var(--color-grey);
+}

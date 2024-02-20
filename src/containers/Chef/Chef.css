@@ -1,0 +1,34 @@
+.gericht_chef{
+    display:flex;
+}
+.gericht_chef-img{
+    margin-right:4rem;
+}
+.gericht_chef-img img{
+    width: 634px;
+    height: 789px;
+}
+.gericht_chef-content{
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 615px;
+}
+.gericht_chef-content-text{
+    display: flex;
+    margin: 3rem 0;
+}
+.gericht_chef-content-text img{
+    width: 47px;
+    height: 40px;
+}
+.gericht_chef-content-text p{
+    margin-top: 1.3rem;
+}
+.gericht_chef-content-image{
+    margin-top: 6rem;
+}
+.gericht_chef-content-image img{
+    width: 235px;
+    height: 83px;
+}

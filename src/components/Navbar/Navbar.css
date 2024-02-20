@@ -1,0 +1,44 @@
+.gericht_Navbar{
+    padding: 1rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-black);
+}
+.gericht_Navbar-image img{
+    width: 150px;;
+
+}
+.gericht_Navbar-menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 370px;
+}
+.gericht_Navbar-menu p{
+    cursor:pointer;
+}
+.gericht_Navbar-menu p:hover{
+    color: var(--color-grey);
+}
+.gericht_Navbar-login{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 450px;
+}
+.gericht_Navbar-login a{
+    margin: 0 1rem;
+    transition: .5s ease;
+}
+.gericht_Navbar-login a:hover{
+    border-bottom: 1px solid var(--color-golden);
+}
+.gericht_Navbar-login div{
+    width:1px;
+    height:36px;
+    background: var(--color-white);
+    margin-top: 0rem;
+}
+

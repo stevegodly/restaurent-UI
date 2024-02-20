@@ -1,0 +1,44 @@
+.gericht_header{
+    display: flex;
+    flex:3;
+    background: var(--color-black);
+}
+.gericht_header-content{
+    padding: 9rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.gericht_header-button{
+    margin-top:2rem;
+}
+.gericht_header-button button{
+    padding: 0.5rem 2rem;
+    color: #0c0b08;
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+
+    cursor:pointer;
+    border: none;
+    border-radius: 1px;
+}
+.gericht_header-content-h{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color:#DCCA87;;
+    display: flex;
+    align-items: center;
+}
+.gericht_header-image img{
+    width: 726px;
+    height: 688px;
+}

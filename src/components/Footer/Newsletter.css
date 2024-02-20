@@ -1,0 +1,36 @@
+.gericht-newsletter{
+    display:flex;
+    padding: 0 10rem;
+}
+.gericht-newsletter-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--color-black);
+}
+.gericht-newsletter-container-placeholder{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.gericht-newsletter-container-placeholder input{
+    width:635px;
+    border: 1px solid #F5EFDB;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background: var(--color-black);
+}
+.gericht-newsletter-container-placeholder button{
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border:none;
+    text-align: center;
+    padding: 8px 24px;
+}
